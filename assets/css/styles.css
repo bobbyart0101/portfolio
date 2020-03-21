@@ -1,0 +1,21 @@
+.headline--name {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-delay: 0.1s;
+}
+.subline {
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation-delay: 2s;
+}
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
