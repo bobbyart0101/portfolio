@@ -60,6 +60,26 @@ h1 {
 .section-invert {
   background: #f9fafc;
 }
+.card-img-caption {
+  cursor: pointer;
+  padding: 1.25rem;
+  opacity: 0;
+}
+.card-img-caption:hover {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+@media (max-width: 767px) {
+  .card-img-caption {
+    opacity: 1;
+    border-radius: 0;
+    border-top-right-radius: 0.625rem;
+    border-top-left-radius: 0.625rem;
+    margin-bottom: 45%;
+  }
+}
 .logo__wrapper {
   display: flex;
   align-items: center;
