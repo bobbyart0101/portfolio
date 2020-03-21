@@ -27,6 +27,28 @@
   animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 2s;
 }
+.section-title {
+  position: relative;
+}
+.section-title:after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #3494E6;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  bottom: -20px;
+}
+.logo__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 125px;
+}
+.logo__wrapper__img {
+  max-width: 100px;
+}
 html {
   height: 100%;
 }
