@@ -40,6 +40,12 @@
   margin-left: -15px;
   bottom: -20px;
 }
+.section {
+  border-bottom: 1px solid #eaebed;
+}
+.section-invert {
+  background: #f9fafc;
+}
 .logo__wrapper {
   display: flex;
   align-items: center;
