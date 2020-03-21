@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "shards-ui": "^3.0.0"
