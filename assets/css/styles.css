@@ -11,6 +11,11 @@ h1 {
   animation: slide-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
   animation-delay: 1s;
 }
+.scroll-btn {
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation-delay: 2.5s;
+}
 .color-change-2x {
   -webkit-animation: color-change-2x 2s linear infinite alternate both;
   animation: color-change-2x 2s linear infinite alternate both;
@@ -26,10 +31,15 @@ h1 {
   align-self: center;
   color: white;
 }
-.animate-img {
+.animate-img-wrapper {
   -webkit-animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation-delay: 2s;
+}
+.animate-img {
+  -webkit-animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-delay: 2.5s;
 }
 .section-title {
   position: relative;

@@ -9,7 +9,9 @@ h1{
 .subline {
   .slide-in-blurred-left(1s, 1s);
 }
-
+.scroll-btn{
+  .slide-in-blurred-left(1s, 2.5s);
+}
 .tracking-in-expand (@speed, @delay) {
   -webkit-animation: tracking-in-expand @speed cubic-bezier(.215, .61, .355, 1.000) both;
   animation: tracking-in-expand @speed cubic-bezier(.215, .61, .355, 1.000) both;
@@ -39,8 +41,11 @@ h1{
   align-self: center;
   color: white;
 }
-.animate-img{
+.animate-img-wrapper{
   .fade-in-right(1s, 2s);
+}
+.animate-img{
+  .shake-vertical (10s, 2.5s);
 }
 .shake-vertical (@speed, @delay) {
   -webkit-animation: shake-vertical @speed cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
