@@ -26,9 +26,9 @@ var projectDataObjects = [
     },
     {
         id: 2,
-        title: 'Training Tracker',
-        imgUrl: 'assets/img/projects/danzicard.gif',
-        content: 'It is a training tracker app made with Ionic/Angular and Symfony Restful Api.'
+        title: 'Interior Design Tool',
+        imgUrl: 'assets/img/projects/interior.gif',
+        content: 'Interior design with Google VR SDK. Users can walk through the house and change materials and textures of the furniture.'
     }
 ];
 $(document).ready(function () {
