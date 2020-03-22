@@ -1,10 +1,19 @@
+.logos__row{
+  justify-content: center;
+}
 .logo__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 125px;
 }
 
 .logo__wrapper__img {
-  max-width: 100px;
+  max-width: 65px;
+}
+
+@media (max-width: 767px) {
+
+  .logo__wrapper {
+    min-height: 120px;
+  }
 }

@@ -1,6 +1,9 @@
 h1 {
   color: white;
 }
+.gradient-bg {
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.3) inset;
+}
 .headline {
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -89,14 +92,21 @@ h1 {
 .modal__img {
   box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
 }
+.logos__row {
+  justify-content: center;
+}
 .logo__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 125px;
 }
 .logo__wrapper__img {
-  max-width: 100px;
+  max-width: 65px;
+}
+@media (max-width: 767px) {
+  .logo__wrapper {
+    min-height: 120px;
+  }
 }
 html {
   height: 100%;
