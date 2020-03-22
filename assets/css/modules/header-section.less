@@ -1,23 +1,33 @@
-h1{
+h1 {
   color: white;
 }
-.headline{
+
+.headline {
   .tracking-in-expand(1s, .1s);
 }
 
 
 .subline {
-  .slide-in-blurred-left(1s, 1s);
+  .text-focus-in(1s, 1s);
 }
-.subline__quote{
+
+.subline__quote {
   font-style: italic;
 }
-.scroll-btn{
-  .slide-in-blurred-left(1s, 2.5s);
+
+.scroll-btn {
+  .slide-in-blurred-left(1s, 3s);
 }
+
 .tracking-in-expand (@speed, @delay) {
   -webkit-animation: tracking-in-expand @speed cubic-bezier(.215, .61, .355, 1.000) both;
   animation: tracking-in-expand @speed cubic-bezier(.215, .61, .355, 1.000) both;
+  animation-delay: @delay;
+}
+
+.text-focus-in(@speed, @delay ) {
+  -webkit-animation: text-focus-in @speed cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in @speed cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation-delay: @delay;
 }
 
@@ -44,12 +54,15 @@ h1{
   align-self: center;
   color: white;
 }
-.animate-img-wrapper{
-  .fade-in-right(1s, 2s);
+
+.animate-img-wrapper {
+  .fade-in-right(1.5s, 2.2s);
 }
-.animate-img{
+
+.animate-img {
   .shake-vertical (10s, 2.5s);
 }
+
 .shake-vertical (@speed, @delay) {
   -webkit-animation: shake-vertical @speed cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
   animation: shake-vertical @speed cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
