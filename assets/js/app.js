@@ -68,10 +68,10 @@ var projectDataObjects = [
     }
 ];
 $(document).ready(function () {
-    var touchArea = document.getElementById('projectModal');
-    var swipeRegion = new ZingTouch.Region(touchArea);
-    swipeRegion.bind(touchArea, 'swipe', function(e){
-        console.log(e.detail);
+
+    var touchArea = document.getElementById('tapArea');
+    var tapRegion = new ZingTouch.Region(touchArea);
+    tapRegion.bind(touchArea, 'tap', function(e){
         $('#projectModal').modal('hide')
     });
 
@@ -84,7 +84,7 @@ $(document).ready(function () {
         if (project) {
             modal.find('.modal-title').text(project.title);
             modal.find('.modal-body img').attr('src', project.imgUrl);
-            modal.find('.modal-footer').html(project.content);
+            modal.find('.modal-context').html(project.content);
         }
     })
 });
