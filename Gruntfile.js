@@ -8,7 +8,8 @@ module.exports = function (grunt) {
                 src: ['node_modules/jquery/dist/jquery.min.js',
                     'node_modules/bootstrap/dist/js/bootstrap.min.js',
                     'node_modules/shards-ui/dist/js/shards.min.js',
-                    'node_modules/aos/dist/aos.js'],
+                    'node_modules/aos/dist/aos.js',
+                    'node_modules/smoothscroll-polyfill/dist/smoothscroll.min.js'],
                 dest: 'assets/js/libs.min.js'
             }
         },

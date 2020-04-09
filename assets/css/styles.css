@@ -104,6 +104,9 @@ h1 {
   -moz-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
 }
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
 @media (max-width: 767px) {
   .card-img-caption {
     opacity: 1;

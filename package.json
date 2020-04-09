@@ -14,7 +14,8 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-    "shards-ui": "^3.0.0"
+    "shards-ui": "^3.0.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "grunt": "^1.1.0",
