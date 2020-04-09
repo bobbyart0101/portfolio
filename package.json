@@ -16,7 +16,8 @@
     "bowser": "^2.9.0",
     "jquery": "^3.4.1",
     "shards-ui": "^3.0.0",
-    "smoothscroll-polyfill": "^0.4.4"
+    "smoothscroll-polyfill": "^0.4.4",
+    "zingtouch": "^1.0.6"
   },
   "devDependencies": {
     "grunt": "^1.1.0",

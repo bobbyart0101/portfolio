@@ -68,7 +68,12 @@ var projectDataObjects = [
     }
 ];
 $(document).ready(function () {
-    console.log("ready!");
+    var touchArea = document.getElementById('projectModal');
+    var swipeRegion = new ZingTouch.Region(touchArea);
+    swipeRegion.bind(touchArea, 'swipe', function(e){
+        console.log(e.detail);
+        $('#projectModal').modal('hide')
+    });
 
     $('#projectModal').on('show.bs.modal', function (event) {
         var card = $(event.relatedTarget);

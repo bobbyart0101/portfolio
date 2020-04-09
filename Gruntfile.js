@@ -9,7 +9,9 @@ module.exports = function (grunt) {
                     'node_modules/bootstrap/dist/js/bootstrap.min.js',
                     'node_modules/shards-ui/dist/js/shards.min.js',
                     'node_modules/aos/dist/aos.js',
-                    'node_modules/smoothscroll-polyfill/dist/smoothscroll.min.js'],
+                    'node_modules/smoothscroll-polyfill/dist/smoothscroll.min.js',
+                    'node_modules/zingtouch/dist/zingtouch.min.js'
+                    ],
                 dest: 'assets/js/libs.min.js'
             }
         },
