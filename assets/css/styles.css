@@ -137,4 +137,12 @@ body {
 .btn:hover {
   color: #EC6EAD;
 }
+.detect-ie {
+  display: none;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .detect-ie {
+    display: block;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
