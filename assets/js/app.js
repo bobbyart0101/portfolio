@@ -2,6 +2,7 @@ AOS.init({
     offset: 100,
     duration: 600,
     easing: 'ease-in-sine',
+    disable: 'mobile'
 });
 scrollToAnchor();
 
@@ -73,6 +74,7 @@ $(document).ready(function () {
         var card = $(event.relatedTarget);
         var index = card.data('index');
         var modal = $(this);
+        modal.find('.modal-body img').attr('src', null);
         var project = projectDataObjects.find(project => project.id === index);
         if (project) {
             modal.find('.modal-title').text(project.title);

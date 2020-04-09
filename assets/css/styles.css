@@ -47,6 +47,14 @@ h1 {
   animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   animation-delay: 2.5s;
 }
+@media (max-width: 767px) {
+  .header-section {
+    height: auto !important;
+  }
+  .header-section {
+    padding-top: 100px;
+  }
+}
 .section-title {
   position: relative;
 }
