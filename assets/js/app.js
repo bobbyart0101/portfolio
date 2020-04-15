@@ -45,8 +45,8 @@ var projectDataObjects = [
         id: 3,
         title: 'Taiwan Traveler',
         imgUrl: 'assets/img/projects/twtraveler.gif',
-        content: '<p>I did planned a trip for my german friends who visited my hometown, Taiwan. When I made a travel guide, I found there\n' +
-            '    no website existing for Taiwan sightseeing in German. TW traveler is a website, which users can find their travel\n' +
+        content: '<p>I did planned a trip for my german friends who visited my hometown, Taiwan. When I made a travel guide, I did not found\n' +
+            '    any website for Taiwan sightseeing in German in a logic way. TW traveler is a website, which users can find their travel\n' +
             '    destination easily with filtering the geo location or another features. It can switch to map view to quick see the\n' +
             '    travel place.<br>\n' +
             '    This website is made with Nuxt/Vue as front-end and Drupal JSON Api as backend.</p>'
@@ -62,9 +62,15 @@ var projectDataObjects = [
         id: 5,
         title: 'I am home',
         imgUrl: 'assets/img/projects/smart.jpg',
-        content: '<p>I am home is a mini game which I made for my final project in my master studies. This games shows behind the convenience\n' +
+        content: '<p>I am home is a mini game which I made for my final project in my master studies. This games shows that behind the convenience\n' +
             '    and reliance of smart home and ioT device, there is concern of security vulnerabilities and eliminating social and emotional\n' +
             '    connection between the family members. This game is made with Unity engine.</p>'
+    },
+    {
+        id: 6,
+        title: 'Resume Editor',
+        imgUrl: 'assets/img/projects/lebenslauf.gif',
+        content: '<p>There are already several Online Resume Editors available. However, most of them are resume with US-Style and users have to register and save theier sensitive personal data at the external unkown database. I do not prefer that way, so I decided to create my own resume editor. First of all, I researched resumes examples to define the standard German-Style resume structure. Based on this structure, I built a dynamic resume editor which users can see their changes in real-time. I found a way to upload and crop images for rendering in the resume without uploading data on the server. Finally, users can print their resume or export it as JSON with a single button.</p>'
     }
 ];
 $(document).ready(function () {
