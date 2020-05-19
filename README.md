@@ -3,9 +3,10 @@
 Please visit my portfolio: https://bobbyartportfolio.de/
 
 ## Tool
-Jquery  
-Animate.css  
-aos.js    
+* Bootstrap 4
+* Jquery  
+* Animate.css  
+* aos.js    
 
 ## Asset Management
 Use "grunt" command to minify the assets.
