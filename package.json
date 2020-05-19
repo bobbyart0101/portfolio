@@ -14,7 +14,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "bowser": "^2.9.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "shards-ui": "^3.0.0",
     "smoothscroll-polyfill": "^0.4.4",
     "videojs-vr": "^1.7.1",
