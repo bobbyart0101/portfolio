@@ -17,6 +17,7 @@
     "jquery": "^3.4.1",
     "shards-ui": "^3.0.0",
     "smoothscroll-polyfill": "^0.4.4",
+    "videojs-vr": "^1.7.1",
     "zingtouch": "^1.0.6"
   },
   "devDependencies": {
