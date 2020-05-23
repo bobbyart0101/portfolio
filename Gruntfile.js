@@ -33,12 +33,10 @@ module.exports = function (grunt) {
             }
         }
     });
-
-    // 加载包含 "uglify" 任务的插件。
+    
     // grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    // 默认被执行的任务列表。
     grunt.registerTask('default', ['uglify', 'cssmin']);
 
 };
