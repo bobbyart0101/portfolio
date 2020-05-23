@@ -77,7 +77,7 @@ $(document).ready(function () {
 
     var touchArea = document.getElementById('tapArea');
     var tapRegion = new ZingTouch.Region(touchArea);
-    tapRegion.bind(touchArea, 'tap', function(e){
+    tapRegion.bind(touchArea, 'tap', function (e) {
         $('#projectModal').modal('hide')
     });
 
